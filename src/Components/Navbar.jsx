@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
 
-            <button className='hidden md:block border border-sky-400 px-4 py-2 text-white hover:ring-2 rounded ring-sky-600 relative overflow-hidden group '>
+            <button className='hidden lg:block border border-sky-400 px-4 py-2 text-white hover:ring-2 rounded ring-sky-600 relative overflow-hidden group '>
                 <span className='relative z-20'>
                 Contact Us
                 </span>

@@ -32,7 +32,7 @@ const Benfits = () => {
   return (
     <div className='relative w-full min-h-screen overflow-hidden'>
     {/* Left section with title and background */}
-    <div className='hidden lg:block absolute top-0 left-0 w-full sm:w-auto'>
+    <div className='hidden xl:block absolute top-0 left-0 w-full sm:w-auto'>
       <h1 className='absolute top-16 sm:top-36 left-4 sm:left-24 
                     text-2xl sm:text-3xl font-bold text-white tracking-wider
                     px-4 sm:px-0'>
@@ -44,9 +44,11 @@ const Benfits = () => {
         className='w-full h-auto object-cover sm:object-contain' 
       />
     </div>
+
+    {/* Second Image */}
     {/* Left section with title and background */}
-    <div className='lg:hidden absolute -top-0 left-0 w-[20rem] sm:w-auto'>
-      <h1 className='absolute top-16 sm:top-36 left-4 sm:left-24 
+    <div className='xl:hidden absolute top-0 left-0 w-[20rem] sm:w-[30rem]'>
+      <h1 className='absolute top-16 sm:top-28 left-4 sm:left-18 
                     text-xl sm:text-3xl font-bold text-white tracking-wider
                     px-2 sm:px-0'>
         Benefits of Supply<br/> Chain Management
@@ -59,20 +61,20 @@ const Benfits = () => {
     </div>
 
     {/* Right background image */}
-    <div className='absolute hidden lg:block top-[10rem] right-0 sm:right-12 z-10'>
+    <div className='absolute hidden xl:block top-[10rem] right-0 sm:right-12 z-10'>
       <img 
         src="/bg2.svg" 
         alt="benefits" 
-        className='w-[300px] md:w-[400px] lg:w-[500px] h-auto sm:h-[600px] object-contain' 
+        className='w-[300px] lg:w-[500px] md:block h-auto' 
       />
     </div>
 
     {/* Main content */}
-    <div className='bg-white w-full min-h-screen py-10 sm:py-20 z-20 mt-[24rem] md:mt-[12rem] lg:mt-0'>
+    <div className='bg-white w-full min-h-screen py-10 sm:py-20 z-20 mt-[24rem] sm:mt-[32rem] xl:mt-0 '>
       <div className='grid grid-cols-1 gap-4 sm:gap-2 
                     relative w-full 
                     px-4 sm:px-8 lg:px-0
-                    sm:left-[5%] md:left-[10%] lg:left-[52%]
+                    sm:left-[5%] md:left-[10%] lg:left-[25%] xl:left-[52%]
                     max-w-[95%] sm:max-w-2xl 
                     mx-auto lg:mx-0 
                     z-20'>

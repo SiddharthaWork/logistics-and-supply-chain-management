@@ -1,12 +1,12 @@
 import React from 'react'
 const Core = () => {
     return (
-      <div className='bg-white py-4 px-4 md:px-6 flex flex-col md:flex-row justify-center items-center w-full min-h-[400px] relative overflow-hidden'>
+      <div className='bg-white py-4 px-4 md:px-6 flex flex-col lg:flex-row justify-center items-center w-full min-h-[400px] relative overflow-hidden'>
         <div className='absolute inset-0 left-8'>
             <img src="image.png" alt="" className='' />
 
         </div>
-          <div className='w-full md:w-1/2 h-full flex flex-col gap-4 justify-center px-4 md:pt-28 md:px-24 mb-6 md:mb-44'>
+          <div className='w-full lg:w-1/2 h-full flex flex-col gap-4 justify-center px-4 md:pt-28 lg:px-24 mb-6 lg:mb-44'>
               <h2 className='text-2xl md:text-4xl font-medium text-center md:text-left'>
                   Why Choose WebStudio Nepal?
               </h2>

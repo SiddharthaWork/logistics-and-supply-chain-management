@@ -49,9 +49,9 @@ const Features = () => {
           {featuresData.map((feature, index) => (
             <div key={index} className='relative'>
               <div className='flex flex-col md:flex-row text-white items-start md:items-center gap-4 md:gap-[15rem] pb-8'>
-                <h1 className='text-4xl md:text-5xl font-bold w-[3rem] hover:text-red-600'>{feature.number}</h1>
-                <h1 className='text-2xl md:text-3xl font-bold w-[23rem]'>{feature.title}</h1>
-                <div className='w-full md:w-[30rem] h-[4.5rem] flex items-center'>
+                <h1 className='text-4xl lg:text-5xl font-bold w-[3rem] hover:text-red-600'>{feature.number}</h1>
+                <h1 className='text-2xl lg:text-3xl font-bold sm:w-[24rem] w-full'>{feature.title}</h1>
+                <div className='w-full lg:w-[30rem] sm:w-[24rem] h-full  lg:h-[4.5rem] flex items-center'>
                   <p className='text-lg leading-relaxed'>{feature.description}</p>
                 </div>
               </div>
