@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'wx': '1000px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
